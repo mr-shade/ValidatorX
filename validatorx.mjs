@@ -1,4 +1,4 @@
-const XValidatorX = {
+const validatorx = {
     // Basic email validation
     isEmail: function(email) {
       const emailRegex = /\S+@\S+\.\S+/;
@@ -131,6 +131,8 @@ const XValidatorX = {
   
   // Export the object if in a Node.js environment
   if (typeof module !== 'undefined' && module.exports) {
-    module.exports = XValidatorX;
+    module.exports = validatorx;
   }
+
+  export default validatorx;
   
