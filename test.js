@@ -1,5 +1,5 @@
  // Usage example
-import v from './validatorx.mjs';
+import v from './validatorr.mjs';
 // const v = require('./v.js');
 
 console.log(v.isEmail('test@example.com')); // true

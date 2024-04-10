@@ -1,23 +1,23 @@
 {
-    "name": "validatorx",
+    "name": "validatorr",
     "version": "1.0.0",
     "description": "A comprehensive validation library for common data validation tasks.",
-    "main": "validatorx.mjs",
+    "main": "validatorr.mjs",
     "type": "module",
     "scripts": {
       "test": "echo \"No test specified\" && exit 0"
     },
     "repository": {
       "type": "git",
-      "url": "https://github.com/mr-shade/validatorx.git"
+      "url": "https://github.com/mr-shade/validatorr.git"
     },
     "keywords": ["validation", "validator", "data validation"],
     "author": "mr-shade",
     "license": "MIT",
     "bugs": {
-      "url": "https://github.com/mr-shade/validatorx/issues"
+      "url": "https://github.com/mr-shade/validatorr/issues"
     },
-    "homepage": "https://github.com/mr-shade/validatorx",
+    "homepage": "https://github.com/mr-shade/validatorr",
     "dependencies": {}
   }
   

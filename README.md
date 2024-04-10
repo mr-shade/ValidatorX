@@ -1,43 +1,43 @@
-# validatorx
+# validatorr
 
-[![npm version](https://img.shields.io/npm/v/validatorx.svg)](https://www.npmjs.com/package/validatorx)
-[![GitHub issues](https://img.shields.io/github/issues/mr-shade/validatorx)](https://github.com/mr-shade/validatorx/issues)
-[![GitHub stars](https://img.shields.io/github/stars/mr-shade/validatorx)](https://github.com/mr-shade/validatorx/stargazers)
-[![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fmr-shade%2Fvalidatorx%2F&labelColor=%23f47373&countColor=%232ccce4&style=flat)](https://visitorbadge.io/status?path=https%3A%2F%2Fgithub.com%2Fmr-shade%2Fvalidatorx%2F)
+[![npm version](https://img.shields.io/npm/v/validatorr.svg)](https://www.npmjs.com/package/validatorr)
+[![GitHub issues](https://img.shields.io/github/issues/mr-shade/validatorr)](https://github.com/mr-shade/validatorr/issues)
+[![GitHub stars](https://img.shields.io/github/stars/mr-shade/validatorr)](https://github.com/mr-shade/validatorr/stargazers)
+[![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fmr-shade%2Fvalidatorr%2F&labelColor=%23f47373&countColor=%232ccce4&style=flat)](https://visitorbadge.io/status?path=https%3A%2F%2Fgithub.com%2Fmr-shade%2Fvalidatorr%2F)
 [![Twitter Follow](https://img.shields.io/twitter/follow/sh20raj.svg?style=social)](https://twitter.com/sh20raj)
 
 A comprehensive and light weight validation library for common data validation tasks.
 
 ## Installation
 
-You can install `validatorx` via npm:
+You can install `validatorr` via npm:
 
 ```bash
-npm install validatorx
+npm install validatorr
 ```
 
 Or include it via CDN:
 
 ```html
 <!-- Latest release -->
-<script src="https://cdn.jsdelivr.net/gh/mr-shade/validatorx@latest/validatorx.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/mr-shade/validatorr@latest/validatorr.js"></script>
 
-<!-- <script src="https://cdn.jsdelivr.net/npm/validatorx"></script> -->
+<!-- <script src="https://cdn.jsdelivr.net/npm/validatorr"></script> -->
 
 
 
 <!-- Specific version (replace '1.0.0' with the desired version) -->
-<!-- <script src="https://cdn.jsdelivr.net/npm/validatorx@1.0.0"></script> -->
+<!-- <script src="https://cdn.jsdelivr.net/npm/validatorr@1.0.0"></script> -->
 ```
 
 ## Usage
 
-Here's an example of how you can use `validatorx`:
+Here's an example of how you can use `validatorr`:
 
 ```javascript
-import v from 'validatorx';
+import v from 'validatorr';
  // Usage example
-// import v from './validatorx.mjs';
+// import v from './validatorr.mjs';
 // const v = require('./v.js');
 
 console.log(v.isEmail('test@example.com')); // true
@@ -82,14 +82,14 @@ console.log(v.isNumeric('12345')); // true
 
 ### Usage via CDN
 
-You can also use `validatorx` directly in the browser via CDN:
+You can also use `validatorr` directly in the browser via CDN:
 
 ```html
 <!-- Latest release -->
-<script src="https://cdn.jsdelivr.net/npm/validatorx"></script>
+<script src="https://cdn.jsdelivr.net/npm/validatorr"></script>
 
 <!-- Specific version (replace '1.0.0' with the desired version) -->
-<!-- <script src="https://cdn.jsdelivr.net/npm/validatorx@1.0.0"></script> -->
+<!-- <script src="https://cdn.jsdelivr.net/npm/validatorr@1.0.0"></script> -->
 ```
 
 ### Documentation
@@ -103,7 +103,7 @@ Checks if a string is a valid email address.
 
 **Example:**
 ```javascript
-const isValidEmail = validatorx.isEmail('test@example.com');
+const isValidEmail = validatorr.isEmail('test@example.com');
 console.log(isValidEmail); // true
 ```
 
@@ -116,7 +116,7 @@ Checks if a string is a valid URL.
 
 **Example:**
 ```javascript
-const isValidURL = validatorx.isURL('https://www.example.com');
+const isValidURL = validatorr.isURL('https://www.example.com');
 console.log(isValidURL); // true
 ```
 
@@ -129,17 +129,17 @@ Checks if a string is not empty.
 
 **Example:**
 ```javascript
-const isValid = validatorx.isNotEmptyString('Hello');
+const isValid = validatorr.isNotEmptyString('Hello');
 console.log(isValid); // true
 ```
 
 <!-- #### More Methods...
 
-You can find detailed examples and parameters for all methods in the validatorx Documentation. -->
+You can find detailed examples and parameters for all methods in the validatorr Documentation. -->
 
 ## Issues
 
-If you encounter any issues or have suggestions, please feel free to [open an issue on GitHub](https://github.com/mr-shadevalidatorx/issues).
+If you encounter any issues or have suggestions, please feel free to [open an issue on GitHub](https://github.com/mr-shadevalidatorr/issues).
 
 ## License
 
@@ -147,4 +147,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-> https://dev.to/sh20raj/xvalidatorx-a-lightweight-validation-library-for-javascript-2c59
+> https://dev.to/sh20raj/xvalidatorr-a-lightweight-validation-library-for-javascript-2c59
